@@ -28,7 +28,7 @@ public class DriverInitializer {
                 webDriver = new ChromeBrowser().getDriver();
         }
 
-        driver.DriverProvider.setDriver(webDriver);
+        DriverProvider.setDriver(webDriver);
         return webDriver;
     }
 
